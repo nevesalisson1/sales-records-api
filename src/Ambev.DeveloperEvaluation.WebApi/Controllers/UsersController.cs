@@ -8,6 +8,8 @@ using Ambev.DeveloperEvaluation.WebApi.Features.Users.DeleteUser;
 using Ambev.DeveloperEvaluation.Application.Users.CreateUser;
 using Ambev.DeveloperEvaluation.Application.Users.GetUser;
 using Ambev.DeveloperEvaluation.Application.Users.DeleteUser;
+using Ambev.DeveloperEvaluation.WebApi.Controllers;
+using CreateUserResponse = Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserResponse;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Users;
 
