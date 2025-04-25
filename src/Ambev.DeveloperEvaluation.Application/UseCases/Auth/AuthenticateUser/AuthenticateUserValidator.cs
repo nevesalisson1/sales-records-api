@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ambev.DeveloperEvaluation.Application.Auth.AuthenticateUser
+namespace Ambev.DeveloperEvaluation.Application.UseCases.Auth.AuthenticateUser
 {
     public class AuthenticateUserValidator : AbstractValidator<AuthenticateUserCommand>
     {

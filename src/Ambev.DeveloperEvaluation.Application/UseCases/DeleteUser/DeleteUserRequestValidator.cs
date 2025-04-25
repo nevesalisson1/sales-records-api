@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ambev.DeveloperEvaluation.WebApi.Features.Users.DeleteUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.DeleteUser;
 
 /// <summary>
 /// Validator for DeleteUserRequest

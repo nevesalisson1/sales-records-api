@@ -1,5 +1,6 @@
-﻿using AutoMapper;
-using Ambev.DeveloperEvaluation.Application.Users.CreateUser;
+﻿using Ambev.DeveloperEvaluation.Application.UseCases.CreateUser;
+using Ambev.DeveloperEvaluation.WebApi.Responses;
+using AutoMapper;
 
 namespace Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser;
 

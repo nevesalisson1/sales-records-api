@@ -1,4 +1,4 @@
-namespace Ambev.DeveloperEvaluation.WebApi.Features.Users.GetUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.GetUser;
 
 /// <summary>
 /// Request model for getting a user by ID

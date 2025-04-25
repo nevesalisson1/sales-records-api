@@ -1,7 +1,7 @@
-using AutoMapper;
 using Ambev.DeveloperEvaluation.Domain.Entities;
+using AutoMapper;
 
-namespace Ambev.DeveloperEvaluation.Application.Users.GetUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.GetUser;
 
 /// <summary>
 /// Profile for mapping between User entity and GetUserResponse

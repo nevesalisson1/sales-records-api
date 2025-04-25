@@ -2,7 +2,7 @@
 using Ambev.DeveloperEvaluation.Domain.Enums;
 using MediatR;
 
-namespace Ambev.DeveloperEvaluation.Application.Users.CreateUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.CreateUser;
 
 /// <summary>
 /// Command for creating a new user.

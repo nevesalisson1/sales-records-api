@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace Ambev.DeveloperEvaluation.WebApi.Features.Users.GetUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.GetUser;
 
 /// <summary>
 /// Validator for GetUserRequest

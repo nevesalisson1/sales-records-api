@@ -1,6 +1,6 @@
-using Ambev.DeveloperEvaluation.Domain.Enums;
+﻿using Ambev.DeveloperEvaluation.Domain.Enums;
 
-namespace Ambev.DeveloperEvaluation.Application.Users.GetUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.GetUser;
 
 /// <summary>
 /// Response model for GetUser operation

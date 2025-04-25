@@ -1,6 +1,7 @@
-using Ambev.DeveloperEvaluation.Application.Auth.AuthenticateUser;
+using Ambev.DeveloperEvaluation.Application.UseCases.Auth.AuthenticateUser;
 using Ambev.DeveloperEvaluation.WebApi.Common;
 using Ambev.DeveloperEvaluation.WebApi.Features.Auth.AuthenticateUserFeature;
+using Ambev.DeveloperEvaluation.WebApi.Responses;
 using AutoMapper;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

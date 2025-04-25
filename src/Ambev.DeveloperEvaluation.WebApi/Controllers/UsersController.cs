@@ -1,17 +1,14 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using AutoMapper;
+﻿using Ambev.DeveloperEvaluation.Application.UseCases.CreateUser;
+using Ambev.DeveloperEvaluation.Application.UseCases.DeleteUser;
+using Ambev.DeveloperEvaluation.Application.UseCases.GetUser;
 using Ambev.DeveloperEvaluation.WebApi.Common;
-using Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser;
-using Ambev.DeveloperEvaluation.WebApi.Features.Users.GetUser;
-using Ambev.DeveloperEvaluation.WebApi.Features.Users.DeleteUser;
-using Ambev.DeveloperEvaluation.Application.Users.CreateUser;
-using Ambev.DeveloperEvaluation.Application.Users.GetUser;
-using Ambev.DeveloperEvaluation.Application.Users.DeleteUser;
-using Ambev.DeveloperEvaluation.WebApi.Controllers;
-using CreateUserResponse = Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser.CreateUserResponse;
+using Ambev.DeveloperEvaluation.WebApi.Responses;
+using AutoMapper;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using CreateUserResponse = Ambev.DeveloperEvaluation.WebApi.Responses.CreateUserResponse;
 
-namespace Ambev.DeveloperEvaluation.WebApi.Features.Users;
+namespace Ambev.DeveloperEvaluation.WebApi.Controllers;
 
 /// <summary>
 /// Controller for managing user operations

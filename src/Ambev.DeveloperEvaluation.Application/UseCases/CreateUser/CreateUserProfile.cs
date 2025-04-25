@@ -1,8 +1,7 @@
-﻿using AutoMapper;
-using Ambev.DeveloperEvaluation.Domain.Entities;
-using Ambev.DeveloperEvaluation.WebApi.Features.Users.CreateUser;
+﻿using Ambev.DeveloperEvaluation.Domain.Entities;
+using AutoMapper;
 
-namespace Ambev.DeveloperEvaluation.Application.Users.CreateUser;
+namespace Ambev.DeveloperEvaluation.Application.UseCases.CreateUser;
 
 /// <summary>
 /// Profile for mapping between User entity and CreateUserResponse
